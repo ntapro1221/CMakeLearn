@@ -4,7 +4,6 @@ project(Ep002App
         VERSION 0.1
         DESCRIPTION "first step with cmake"
         LANGUAGES CXX)
-        # LANGUAGE CXX)
 
 add_executable(Ep002AppBinary main.cpp)
 
