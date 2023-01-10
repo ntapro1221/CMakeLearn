@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\Ntanh\MyData\Sources\CMakeLearn\Ep002\source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Ntanh\MyData\Sources\CMakeLearn\Ep002\source\src\dog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Ntanh\MyData\Sources\CMakeLearn\Ep002\source\CMakeLists.txt" />

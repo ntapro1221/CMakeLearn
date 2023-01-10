@@ -1,7 +1,7 @@
-#include <iostream>
+#include "dog.h"
 int main()
 {
-    std::cout << "hmm";
+    dog lucky("lucky");
+    lucky.bark();
     return 0;
-    hmm
 }
