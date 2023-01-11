@@ -1,4 +1,5 @@
 #include "dog.h"
+#include "SDL.h"
 int main()
 {
     dog lucky("lucky");

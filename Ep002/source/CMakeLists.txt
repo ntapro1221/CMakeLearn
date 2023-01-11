@@ -7,6 +7,8 @@ project(Ep002App
 
 add_executable(Ep002AppBinary main.cpp src/dog.cpp)
 
-target_compile_features(Ep002AppBinary PRIVATE cxx_std_20)
+target_compile_features(Ep002AppBinary PUBLIC cxx_std_20)
 
-target_include_directories(Ep002AppBinary PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(Ep002AppBinary PUBLIC include)
+
+target_link_libraries(Ep002AppBinary PUBLIC SDL2 SDL2main)
